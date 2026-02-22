@@ -16,21 +16,21 @@
 // num = undefined;
 // console.log(typeof(num));
 
-// function
-var sayHello = function() {
-    alert("hello world");
-}
+// // function
+// var sayHello = function() {
+//     alert("hello world");
+// }
 
-// array
-var numberArray = [1, 2, 3];
-var animals = new Array("cat", "dog", "mouse", "lion");
+// // array
+// var numberArray = [1, 2, 3];
+// var animals = new Array("cat", "dog", "mouse", "lion");
 
-// object
-var person = {
-    name: 'Barack Hussein Obama II',
-    age: '51',
-    title: '44th President of the United States'
-}
+// // object
+// var person = {
+//     name: 'Barack Hussein Obama II',
+//     age: '51',
+//     title: '44th President of the United States'
+// }
 
 
 
@@ -47,11 +47,40 @@ var person = {
 //     console.log("false")  // because each symbol is unique
 // }
 
+// {
+//     alert("test");
 
 
-// var a = 100; var b = 13; var c = 10; var linebreak = "<br>";
+// }
 
-// document.write("a + b + c =");
-// result = a + b + c;
-// document.write(result);
-// document.write(linebreak);
+var a = 100; var b = 13; var c = 10; var linebreak = "<br>";
+
+document.write("a + b + c =");
+result = a + b + c;
+document.write(result);
+document.write(linebreak);
+
+document.write("a + b =");
+result = a + b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a - b=");
+result = a - b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a / b=");
+result = a / b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a % b=");
+result = a % b;
+document.write(result);
+document.write(linebreak);
+
+
+
+
+
