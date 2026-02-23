@@ -101,7 +101,6 @@
 // document.write(result);
 // document.write(linebreak);
 
-
 // document.write ("(a != b) =>");
 // result = (a != b);
 // document.write(result);
@@ -125,21 +124,24 @@
 
 // loops
 
-var count;
-document.write("starting loop" + "<br />");
-for (count = 0; count < 10; count++) {
-    document.write("current count:" + count);
-    document.write("<br />");
-}
-document.write("loop stopped!");
+// var count;
+// document.write("starting loop" + "<br />");
+// for (count = 0; count < 10; count++) {
+//     document.write("current count:" + count);
+//     document.write("<br />");
+// }
+// document.write("loop stopped!");
 
 
 // for in loop
 // for(key in object) {
 // code block to be executed
 // }
-// const person = {
-// fname: "Ajay",
-// Iname: "Singh",
-// age: 25
-// }
+const person = {
+fname: "Ajay",
+Iname: "Singh",
+age: 25
+}
+for (let x in person) {
+console.log("person details: " + x + ":" + person[x])
+}
