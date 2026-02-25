@@ -137,11 +137,48 @@
 // for(key in object) {
 // code block to be executed
 // }
-const person = {
-fname: "Ajay",
-Iname: "Singh",
-age: 25
-}
-for (let x in person) {
-console.log("person details: " + x + ":" + person[x])
-}
+// const person = {
+// fname: "Ajay",
+// Iname: "Singh",
+// age: 25
+// }
+// for (let x in person) {
+// console.log("person details: " + x + ":" + person[x])
+// }
+
+
+
+
+var a = 40;
+var b = 20;
+var linebreak = "<br />";
+
+document.write("Value of a => (a = b) => ");
+result = (a = b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a += b) => ");
+result = (a += b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a -= b) => ");
+result = (a -= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a *= b) => ");
+result = (a *= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a /= b) => ");
+result = (a /= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a %= b) => ");
+result = (a %= b);
+document.write(result);
+document.write(linebreak);
