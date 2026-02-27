@@ -240,3 +240,49 @@
 // {
 //     console.log("you are minor.");
 // }
+
+// var grade = 'A';
+// document.write("Entering switch block <br/>");
+// switch(grade) {
+//     case 'A' : document.write("good job <br/>");
+//     break;
+
+//     case 'B' : document.write("preety good <br/>");
+//     break;
+
+//     case 'C' : document.write("passed <br/>");
+//     break;
+
+//     case 'D' : document.write("not so good <br/>");
+//     break;
+
+//      case 'E' : document.write("failed <br/>");
+//     break;
+
+//     default: document.write("unknown grade")
+// }
+// document.write ("existing switch block");
+
+
+
+// javascript functions
+
+// function myFuntion()
+// {
+//     alert("Hello World");
+// }
+
+// function with arguments
+
+// function sayHello(name, age)
+// {
+//     document.write (name + "is" + age + "years old.");
+// }
+
+
+var res = nul (12, 30);
+function nul(x , y)
+{
+    return x * y;
+}
+document.write(res);
