@@ -135,7 +135,7 @@
 
 // for in loop
 // for(key in object) {
-// code block to be executed
+// // code block to be executed
 // }
 // const person = {
 // fname: "Ajay",
@@ -143,7 +143,7 @@
 // age: 25
 // }
 // for (let x in person) {
-// console.log("person details: " + x + ":" + person[x])
+// console.log("person details: " + x + ":" + person[x])   // person[x] can also be writtten as person.x
 // }
 
 
@@ -187,11 +187,56 @@
 
 // while loop
 
-var count = 0;
-document.write("Starting loop");
-while (count < 10)
-{
-    document.write("Current Count:" + count + "<br/>");
-    count++;
-}
-document.write("loop stopped1");
+// var count = 0;
+// document.write("Starting loop");
+// while (count < 10)
+// {
+//     document.write("Current Count:" + count + "<br/>");
+//     count++;
+// }
+// document.write("loop stopped1");
+
+
+
+// const person = {
+//     fname : "Ajay",
+//     Lname : "Singh",
+//     age : 25
+//     }
+//     for (let x in person) {
+//         console.log ("person details: " + x + ":" + person[x])
+//     }
+
+
+// var count = 0;
+// console.log("starting loop");
+
+// while (count < 10)
+// {
+//     console.log("Current count: " + count + "<br/>");
+//     count ++;
+// }
+// console.log("loop stopped");
+
+// if we want t use any html tag in javascript then put it in double quotes
+
+// conditional if
+
+// var age = 20;
+
+// if (age > 18) {
+//     document.write("<b>You are eligible to cast the vote.</b>");
+// }
+
+
+// conditional if else
+
+// var age = 20;
+
+// if (age > 18) {
+//     console.log("You are an adult.");
+// }
+// else
+// {
+//     console.log("you are minor.");
+// }
