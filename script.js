@@ -280,9 +280,56 @@
 // }
 
 
-var res = nul (12, 30);
-function nul(x , y)
-{
-    return x * y;
+// var res = nul (12, 30);
+// function nul(x , y)
+// {
+//     return x * y;
+// }
+// document.write(res);
+
+
+
+
+// arrow functions
+
+// // normal function
+// function add(a, b) {
+//     console.log(a + b);
+// } add(10, 20);
+
+// // arrow function
+// var add2 = (a, b) => {
+//     console.log(a + b);
+// }
+
+// arrow fuction for single line parameters
+
+// var add3 = (a, b) => console.log(a + b);
+// add3(30, 20);
+
+
+// object - key value pair (represents collection of properties)
+
+var person = {
+    name : "John Mac",
+    age : 30,
+    isMarried : true,
+    address : {
+        street : "Vijay Nagar",
+        flatNO : 201
+    }
 }
-document.write(res);
+// // console.log(person);
+// for (let x in person) {
+//     console.log("person details: " + x + ":" + person[x])
+// }
+
+
+// var person2 = new Object();
+// person2.name = "geet";     // to add properties to this object
+// person2.age = 32;
+// person2.ismarried = true;
+// person2.address = {};
+// person2.address.street = "nagar road";
+// person2['address']['flatNO'] = 33;
+// console.log(person2)
