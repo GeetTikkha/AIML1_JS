@@ -280,8 +280,8 @@
 // }
 
 
-// var res = nul (12, 30);
-// function nul(x , y)
+// var res = mul (12, 30);
+// function mul(x , y)
 // {
 //     return x * y;
 // }
@@ -310,15 +310,15 @@
 
 // object - key value pair (represents collection of properties)
 
-var person = {
-    name : "John Mac",
-    age : 30,
-    isMarried : true,
-    address : {
-        street : "Vijay Nagar",
-        flatNO : 201
-    }
-}
+// var person = {
+//     name : "John Mac",
+//     age : 30,
+//     isMarried : true,
+//     address : {
+//         street : "Vijay Nagar",
+//         flatNO : 201
+//     }
+// }
 // // console.log(person);
 // for (let x in person) {
 //     console.log("person details: " + x + ":" + person[x])
@@ -333,3 +333,20 @@ var person = {
 // person2.address.street = "nagar road";
 // person2['address']['flatNO'] = 33;
 // console.log(person2)
+
+
+
+// var person = {
+//     name : 'John Mac',
+//     age : 30,
+//     isMarried : true,
+//     child : ['Cheeku'],
+//     getInfo : function () {
+//         var address = {
+//             street : 'Vijay Nagar',
+//             flatNO : 20
+//         };
+//         console.log(address.street);
+//     }
+// };
+// person.getInfo();
