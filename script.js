@@ -350,3 +350,58 @@
 //     }
 // };
 // person.getInfo();
+
+
+// array is an ordered method of storing while in object we can access using key
+// object is an unordered collection
+// array is an ordered collection
+// array in js is collection of anything
+// array is a special kind of object
+
+
+// var myinfo = new Array();
+// var myinfo1 = Array();
+// console.log(myinfo, myinfo1);
+
+
+// let collection = [
+//     {},
+//     [],
+//     true,
+//     "john",
+//     function () {},
+//     900005778,
+//     undefined,
+//     null,
+//     new String("abc"),
+//     new Date(),
+// ];
+// console.log(collection);
+// collection.teacherName = "john mac";
+// collection.phoneNo = 34567890;
+
+
+// var trainerinfo = ["Geet", 18, "Ghaziabad", {isMarried:false}];
+// console.log(trainerinfo);
+// console.log(trainerinfo[0]);
+// console.log(trainerinfo[1]);
+// console.log(trainerinfo[2]);
+// console.log(trainerinfo[trainerinfo.length-1]);
+// trainerinfo.contact = 987654345678;
+// console.log(trainerinfo);
+// trainerinfo[0] = "Geet Tikkha";
+// console.log(trainerinfo);
+// console.log(trainerinfo.length);
+
+
+// DOM
+// if there is a need to access any element in a html page we always start with accessing the document object. and the document object is the property of window object
+
+
+// const result = document.getElementById("para");
+// // document.write(result);
+// result.innerHTML = "my self";
+// result.title = "myname";
+
+const result2 = document.getElementsByClassName("heading");
+result2.innerHTML = "hii";
