@@ -405,3 +405,81 @@
 
 // const result2 = document.getElementsByClassName("heading");
 // result2.innerHTML = "hii";
+
+
+// selecting with tag name
+
+// const result3 = document.getElementsByTagName("p");
+// result3[2].innerHTML = "this is a pet";
+// result3[1].style.color = "blue";
+// result3[1].innerText = "my paragraph";
+
+// query selector
+
+// html dom properties
+
+// 1. getAttribute
+
+// const element = document.getElementById("myH1");
+// let text = element.getAttribute("class");
+// document.getElementById("demo").innerHTML = text;
+
+// 2. setAttribute
+
+// function myFunction()
+// {
+//     document.getElementById("myH1").setAttribute("class", "democlass");
+// }
+
+ 
+// html dom append method
+
+// //  create an element
+// const heading = document.createElement("h2");
+
+// // get the parent
+// const bodytag = document.getElementByTagName("body");
+
+// // add element at the position using append method
+// bodytag[0].append(heading);
+// Node.prepend()  // adds at the start of node
+// Node.before()   // adds before the node
+// Node.after()    // adds after the node
+// Node.remove()   // remove the node
+
+
+
+// function practice()
+// {
+//     document.open()
+//     document.write("<h1>PRACTICE</h1>");
+//     document.close();
+// }
+
+
+
+// function onMouseOver() {
+//     console.log("On Mouse Over");
+// }
+
+// ondblclick is also a 
+
+// forms events
+// addEventListner(event, function)
+
+
+// the change in the state of an object is event
+
+
+
+// const x = document.querySelector('input');
+// x.addEventListener('focus', onhandlefocus);
+// x.addEventListener('blur', onhandleblur);
+
+// function onhandlefocus() {
+//     x.style
+// }
+
+
+
+
