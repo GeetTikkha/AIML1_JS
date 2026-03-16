@@ -494,3 +494,15 @@
 
 
 
+// function changeColor() {
+//     document.getElementById("text").style.color = "red";
+//     }
+
+
+// function customizeInput () {
+//     var ele = document.getElementsByTagName("INPUT")[0];
+//     ele.style.backgroundColor = "yellow";
+//     ele.style.color = "red";
+// }
+
+const x = document.querySelector('input');
