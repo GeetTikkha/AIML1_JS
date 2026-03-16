@@ -415,6 +415,17 @@
 // result3[1].innerText = "my paragraph";
 
 // query selector
+// const test = document.querySelector("ul li:nth-child(3)");
+// test.style.backgroundColor = "green";
+// test.style.padding = "10px";
+
+// const test2 = document.querySelectroAll("ul li");
+// for (x in test2) {
+//     test2[x].style.backgroundColor = "green";
+//     test2[x].style.margin = "10px";
+//     test2[x].style.color = "blue";
+    
+// }
 
 // html dom properties
 
