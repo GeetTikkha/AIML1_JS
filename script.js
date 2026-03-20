@@ -505,4 +505,70 @@
 //     ele.style.color = "red";
 // }
 
-const x = document.querySelector('input');
+
+
+// var text = '{"employees":['+
+// '{"firstName":"John","lastName":"Doe"},'+
+// '{"firstName":"Anna","lastName":"Smith"},'+
+// '{"firstName":"Peter","lastName":"Jones"}]}';
+
+// obj = JSON.parse(text);
+// document.getElementById("demo").innerHTML =
+// obj.employees[1].firstName + " " + obj.employees[1].lastName;
+
+
+// jab bhi koi function as an argument pass hota hai then it is called higher order function
+
+
+// map method
+
+// var numbers = [1, 2, 3, 4];
+// var result = numbers.map(n => n*2);
+// console.log(result);
+
+// filter method
+
+// var numbers = [10, 20, 30, 40];
+// var result = numbers.filter(n => n>20);
+// console.log(result);
+
+
+// reduce method
+
+// var numbers = [10, 20, 30,];
+// var sum = numbers.reduce((total,n) => total+n, 0);
+// console.log(sum);
+
+
+
+// promises => represents the result of an asynchronous operation
+
+
+// var promise = new Promise((resolve,reject)=>{
+//     let success = true;
+//     if(success)
+//         resolve("Data Loaded");
+//     else
+//         reject("Error Occurred");
+// });
+// promise.then(result => console.log(result))
+// .catch(error => console.log(error));
+
+
+// async function getData(){
+// let response = await fetch("https://jsonplaceholder.typicode.com/users");
+// let data = await response.json();
+// console.log(data);
+// }
+// getData();
+
+
+
+// try{
+//     var x = y + 10;
+// } catch(error){
+//     console.log(error.message);
+// }
+
+
+
