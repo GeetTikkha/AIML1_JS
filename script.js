@@ -571,4 +571,14 @@
 // }
 
 
+// localStorage.setItem("name", "Geet");
+// var name1 = localStorage.getItem("name");
+// console.log(name1);
 
+// // Store Object
+// var user = {name:"Jeet", age:50};
+// localStorage.setItem("user", JSON.stringify(user));
+
+// // Retrieve Object
+// var data = JSON.parse(localStorage.getItem("user"));
+// console.log(data.name);
